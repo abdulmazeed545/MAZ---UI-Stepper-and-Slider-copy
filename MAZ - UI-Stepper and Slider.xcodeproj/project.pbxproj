@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049E7ABC2584EE8000A3466D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E7ABB2584EE8000A3466D /* AppDelegate.swift */; };
+		049E7ABE2584EE8000A3466D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E7ABD2584EE8000A3466D /* SceneDelegate.swift */; };
+		049E7AC02584EE8000A3466D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E7ABF2584EE8000A3466D /* ViewController.swift */; };
+		049E7AC32584EE8000A3466D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E7AC12584EE8000A3466D /* Main.storyboard */; };
+		049E7AC52584EE8700A3466D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E7AC42584EE8700A3466D /* Assets.xcassets */; };
+		049E7AC82584EE8700A3466D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E7AC62584EE8700A3466D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049E7AB82584EE8000A3466D /* MAZ - UI-Stepper and Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAZ - UI-Stepper and Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E7ABB2584EE8000A3466D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049E7ABD2584EE8000A3466D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		049E7ABF2584EE8000A3466D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049E7AC22584EE8000A3466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049E7AC42584EE8700A3466D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049E7AC72584EE8700A3466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049E7AC92584EE8700A3466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E7AD22584EE8800A3466D /* MAZ___UI_Stepper_and_SliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MAZ___UI_Stepper_and_SliderTests.swift"; sourceTree = "<group>"; };
+		049E7AD42584EE8800A3466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E7ADD2584EE8800A3466D /* MAZ___UI_Stepper_and_SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MAZ___UI_Stepper_and_SliderUITests.swift"; sourceTree = "<group>"; };
+		049E7ADF2584EE8800A3466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049E7AB52584EE8000A3466D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049E7AAF2584EE8000A3466D = {
+			isa = PBXGroup;
+			children = (
+				049E7ABA2584EE8000A3466D /* MAZ - UI-Stepper and Slider */,
+				049E7AD12584EE8800A3466D /* MAZ - UI-Stepper and SliderTests */,
+				049E7ADC2584EE8800A3466D /* MAZ - UI-Stepper and SliderUITests */,
+				049E7AB92584EE8000A3466D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049E7AB92584EE8000A3466D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049E7AB82584EE8000A3466D /* MAZ - UI-Stepper and Slider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049E7ABA2584EE8000A3466D /* MAZ - UI-Stepper and Slider */ = {
+			isa = PBXGroup;
+			children = (
+				049E7ABB2584EE8000A3466D /* AppDelegate.swift */,
+				049E7ABD2584EE8000A3466D /* SceneDelegate.swift */,
+				049E7ABF2584EE8000A3466D /* ViewController.swift */,
+				049E7AC12584EE8000A3466D /* Main.storyboard */,
+				049E7AC42584EE8700A3466D /* Assets.xcassets */,
+				049E7AC62584EE8700A3466D /* LaunchScreen.storyboard */,
+				049E7AC92584EE8700A3466D /* Info.plist */,
+			);
+			path = "MAZ - UI-Stepper and Slider";
+			sourceTree = "<group>";
+		};
+		049E7AD12584EE8800A3466D /* MAZ - UI-Stepper and SliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				049E7AD22584EE8800A3466D /* MAZ___UI_Stepper_and_SliderTests.swift */,
+				049E7AD42584EE8800A3466D /* Info.plist */,
+			);
+			path = "MAZ - UI-Stepper and SliderTests";
+			sourceTree = "<group>";
+		};
+		049E7ADC2584EE8800A3466D /* MAZ - UI-Stepper and SliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049E7ADD2584EE8800A3466D /* MAZ___UI_Stepper_and_SliderUITests.swift */,
+				049E7ADF2584EE8800A3466D /* Info.plist */,
+			);
+			path = "MAZ - UI-Stepper and SliderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049E7AB72584EE8000A3466D /* MAZ - UI-Stepper and Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049E7AE22584EE8800A3466D /* Build configuration list for PBXNativeTarget "MAZ - UI-Stepper and Slider" */;
+			buildPhases = (
+				049E7AB42584EE8000A3466D /* Sources */,
+				049E7AB52584EE8000A3466D /* Frameworks */,
+				049E7AB62584EE8000A3466D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAZ - UI-Stepper and Slider";
+			productName = "MAZ - UI-Stepper and Slider";
+			productReference = 049E7AB82584EE8000A3466D /* MAZ - UI-Stepper and Slider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049E7AB02584EE8000A3466D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shaik abdul mazeed";
+				TargetAttributes = {
+					049E7AB72584EE8000A3466D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 049E7AB32584EE8000A3466D /* Build configuration list for PBXProject "MAZ - UI-Stepper and Slider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049E7AAF2584EE8000A3466D;
+			productRefGroup = 049E7AB92584EE8000A3466D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049E7AB72584EE8000A3466D /* MAZ - UI-Stepper and Slider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049E7AB62584EE8000A3466D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E7AC82584EE8700A3466D /* LaunchScreen.storyboard in Resources */,
+				049E7AC52584EE8700A3466D /* Assets.xcassets in Resources */,
+				049E7AC32584EE8000A3466D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049E7AB42584EE8000A3466D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E7AC02584EE8000A3466D /* ViewController.swift in Sources */,
+				049E7ABC2584EE8000A3466D /* AppDelegate.swift in Sources */,
+				049E7ABE2584EE8000A3466D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049E7AC12584EE8000A3466D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049E7AC22584EE8000A3466D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049E7AC62584EE8700A3466D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049E7AC72584EE8700A3466D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049E7AE02584EE8800A3466D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049E7AE12584EE8800A3466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049E7AE32584EE8800A3466D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ38K4FTCM;
+				INFOPLIST_FILE = "MAZ - UI-Stepper and Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2010.mazeedabdul6.62;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049E7AE42584EE8800A3466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ38K4FTCM;
+				INFOPLIST_FILE = "MAZ - UI-Stepper and Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2010.mazeedabdul6.62;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049E7AB32584EE8000A3466D /* Build configuration list for PBXProject "MAZ - UI-Stepper and Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E7AE02584EE8800A3466D /* Debug */,
+				049E7AE12584EE8800A3466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049E7AE22584EE8800A3466D /* Build configuration list for PBXNativeTarget "MAZ - UI-Stepper and Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049E7AE32584EE8800A3466D /* Debug */,
+				049E7AE42584EE8800A3466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049E7AB02584EE8000A3466D /* Project object */;
+}
